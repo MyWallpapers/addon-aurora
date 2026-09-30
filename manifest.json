@@ -1,0 +1,47 @@
+{
+  "runtime": "canvas-v1",
+  "name": "Aurora",
+  "description": "Des voiles d’aurore boréale qui se déploient lentement au-dessus d’un horizon sombre.",
+  "version": "0.1.0",
+  "entry": "dist/assets/addon.js",
+  "thumbnail": "assets/thumbnail.png",
+  "deviceSettingsVersion": "1",
+  "ui": {
+    "pointerEvents": "none"
+  },
+  "settings": [
+    {
+      "id": "sky",
+      "type": "color",
+      "label": "Ciel",
+      "default": "#090f1b"
+    },
+    {
+      "id": "light",
+      "type": "color",
+      "label": "Voile",
+      "default": "#7cacaa"
+    },
+    {
+      "id": "secondary",
+      "type": "color",
+      "label": "Reflets",
+      "default": "#8b85a7"
+    },
+    {
+      "id": "speed",
+      "type": "range",
+      "label": "Vitesse",
+      "default": 1,
+      "min": 0.2,
+      "max": 3,
+      "step": 0.1
+    },
+    {
+      "id": "motion",
+      "type": "boolean",
+      "label": "Animation",
+      "default": true
+    }
+  ]
+}
